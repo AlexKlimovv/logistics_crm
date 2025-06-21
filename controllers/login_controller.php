@@ -28,4 +28,4 @@ $_SESSION['user_id'] = $user->id;
 $_SESSION['user_role'] = $user->role;
 $_SESSION['username'] = $user->username;
 
-header('Location: ../index.php');
+header('Location: /PhpstormProjects/logistics_crm/controllers/counterparties_controller.php');

@@ -1,8 +1,5 @@
 <?php
 require_once __DIR__ .'/config/init.php';
 
-echo "Hi, ".$_SESSION['username'];
+header('Location: /PhpstormProjects/logistics_crm/controllers/counterparties_controller.php');
 ?>
-<form method="POST" action="controllers/logout_controller.php">
-    <input type="submit" value="EXIT">
-</form>
